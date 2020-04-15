@@ -1,10 +1,13 @@
 header{
   background-color: black;
-  margin-top: -20px;
-  margin-left: -20px;
-  margin-right: -20px;
-  height: 100px;
-  width:;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  height: 60px;
+  color: white;
+}
+header>ul>li{
+  float: right;
 }
 nav,li{
   display: inline-block;
@@ -23,42 +26,60 @@ list-style: none;
   padding-right: 1%;
  text-align: right;
   width: 110%;
-  background-color: gray;
+  background-color: white;
   float: right;
 
 }
 .nav{
-  color: white;
+  color: black;
   width: 100%;
 }
+.logo{
+float: left;
+padding-left: 9%;
+}
 section{
-  height: 140px;
-  background-color: orange;
-  padding-top: 30px;
-  margin-top: 10%;
-  text-align: center;
+  height: 100px;
+background-image: url("img/texture-bw.png");
+  padding-top:20px;
+  padding-left: 20px;
+  margin-top: 5%;
+  font-size: 30px;
+}
+section>ul>li{
+  float: right;
 }
 .bodydiv{
+  padding-left: 10%;
+  padding-right: 10%;
   background-color: white;
+  height: 400px;
 }
 .signup,input{
   width: 100%
 }
 /*grid2*/
 .grid-container {
-  margin-top: 70px;
   display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 10px;
+  background-color: rgb(93, 92, 92);
+  bottom: 0px;
+  color: white;
 }
-.grid-item {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+
+.grid-container > div {
+  padding: 20px 0;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
 }
 .footer {
-  position: fixed;
+  padding-top: 20px;
+  padding-left: 20px;
   left: 0;
   bottom: 0;
   height: 50px;
